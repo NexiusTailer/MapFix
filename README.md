@@ -1,5 +1,5 @@
 # MapFix
-## Texture bug fixes of the GTA San Andreas map
+**Texture bug fixes of the GTA San Andreas map**
 
 This script fixes most of the texture bugs on the GTA SA map, such as passing through some walls, windows, floors etc.
 In other words, it "adds" a collision to objects which didn't have it.
