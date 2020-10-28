@@ -11,7 +11,7 @@ See the original thread for the list with all fixed places.
 `You can disable a fix of any of the places at the beginning of the filterscript or before the include.
 For example, type following: #define DISABLE_MAPFIX_PLACE_1 // So it will disable the fix №1`
 
-## Installation
+## How to install
 
 Simply install to your project:
 
@@ -44,7 +44,7 @@ Daniel_Cortez - tips, texture bug №146
 ziggi - tips, texture bug №81 (mapping), 140  
 WoasryXxL - texture bug №2 (supplement), 42, 45, 49, 50, 52, 53  
 Romzes - texture bug №24, 30, 38, 41, 47 (supplement), 69, 70, 71, 101 (mapping), 117 (mapping), 127, 128 (mapping), 132 (mapping), 133  
-_leon_lacartez_ - texture bug №142, 143 (mapping), 144 (mapping), 145 (mapping)  
+\_leon_lacartez_ - texture bug №142, 143 (mapping), 144 (mapping), 145 (mapping)  
 KrutoyKrosch - texture bug №4 (supplement), 96  
 KinG7 - texture bug №91, 92, 93, 94, 95  
 Jimmi - texture bug №40, 72 (mapping)  
