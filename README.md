@@ -38,31 +38,31 @@ sampctl package run
 And connect to `localhost:7777`.
 
 ## Credits
-Lordzy - Transparent/Invisible Objects tutorial  
-Pottus - advices and suggestions  
-Daniel_Cortez - tips, texture bug №146  
-ziggi - tips, texture bug №81 (mapping), 140  
-WoasryXxL - texture bug №2 (supplement), 42, 45, 49, 50, 52, 53  
-Romzes - texture bug №24, 30, 38, 41, 47 (supplement), 69, 70, 71, 101 (mapping), 117 (mapping), 127, 128 (mapping), 132 (mapping), 133  
-\_leon_lacartez_ - texture bug №142, 143 (mapping), 144 (mapping), 145 (mapping)  
-KrutoyKrosch - texture bug №4 (supplement), 96  
-KinG7 - texture bug №91, 92, 93, 94, 95  
-Jimmi - texture bug №40, 72 (mapping)  
-Kar - texture bug №2, 27 (supplement), 72, 137, 138  
-$continue$ - texture bug №102 (mapping), 129  
-reAL_ - texture bug №130 (mapping)  
-[CM]Rider - texture bug №18  
-Vadyanga - texture bug №22  
-Admigo - texture bug №25  
-Crayder - texture bug №31  
-SoNik)) - texture bug №51  
-Vitalik_Gonsor - texture bug №54  
-brokens - texture bug №73  
-Sonic X - texture bug №131 (mapping), 134, 135, 136  
-Apec - texture bug №74 (mapping)  
-Nuttz - texture bug №139  
-xRadical3 - texture bug №141  
-Hare - texture bug №147  
-m1n1vv - MapFix logo design
+* Lordzy - Transparent/Invisible Objects tutorial  
+* Pottus - advices and suggestions  
+* Daniel_Cortez - tips, texture bug №146  
+* ziggi - tips, texture bug №81 (mapping), 140  
+* WoasryXxL - texture bug №2 (supplement), 42, 45, 49, 50, 52, 53  
+* Romzes - texture bug №24, 30, 38, 41, 47 (supplement), 69, 70, 71, 101 (mapping), 117 (mapping), 127, 128 (mapping), 132 (mapping), 133  
+* \_leon_lacartez_ - texture bug №142, 143 (mapping), 144 (mapping), 145 (mapping)  
+* KrutoyKrosch - texture bug №4 (supplement), 96  
+* KinG7 - texture bug №91, 92, 93, 94, 95  
+* Jimmi - texture bug №40, 72 (mapping)  
+* Kar - texture bug №2, 27 (supplement), 72, 137, 138  
+* $continue$ - texture bug №102 (mapping), 129  
+* reAL_ - texture bug №130 (mapping)  
+* \[CM]Rider - texture bug №18  
+* Vadyanga - texture bug №22  
+* Admigo - texture bug №25  
+* Crayder - texture bug №31  
+* SoNik)) - texture bug №51  
+* Vitalik_Gonsor - texture bug №54  
+* brokens - texture bug №73  
+* Sonic X - texture bug №131 (mapping), 134, 135, 136  
+* Apec - texture bug №74 (mapping)  
+* Nuttz - texture bug №139  
+* xRadical3 - texture bug №141  
+* Hare - texture bug №147  
+* m1n1vv - MapFix logo design
 
 If you know about some places with texture bugs that haven't been fixed yet - please report them in the issues section.
