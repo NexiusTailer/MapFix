@@ -1,12 +1,8 @@
-# mapfix
+# MapFix
+## Texture bug fixes of the GTA San Andreas map
 
-[![sampctl](https://shields.southcla.ws/badge/sampctl-mapfix-2f2f2f.svg?style=for-the-badge)](https://github.com/sampctl/mapfix)
-
-[**Original thread**](http://forum.sa-mp.com/showthread.php?t=591476)
-
-This is here so sampctl users can easily install this library and its
-dependencies. If the original author wishes to host this library themselves,
-please let me (Southclaws) know and I will transfer the repository.
+This script fixes most of the texture bugs on the GTA SA map, such as passing through some walls, windows, floors etc.
+In other words, it "adds" a collision to objects which didn't have it.
 
 ## Installation
 
