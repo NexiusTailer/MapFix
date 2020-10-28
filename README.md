@@ -63,6 +63,7 @@ And connect to `localhost:7777`.
 * Nuttz - texture bug №139  
 * xRadical3 - texture bug №141  
 * Hare - texture bug №147  
+* Southclaws - hosted this GitHub repo for years  
 * m1n1vv - MapFix logo design
 
 If you know about some places with texture bugs that haven't been fixed yet - please report them in the issues section.
