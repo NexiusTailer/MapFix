@@ -30,15 +30,6 @@ Include in your code and begin using the library:
 > `Note:`  
 > Since v1.1.1 it supports Streamer Plugin by Incognito. Now objects can be created via CreateDynamicObject. To do this, just include streamer before mapfix
 
-## Testing
-
-To test, simply run the package:
-```bash
-sampctl package run
-```
-
-And connect to `localhost:7777`.
-
 ## Credits
 * Lordzy - Transparent/Invisible Objects tutorial  
 * Pottus - advices and suggestions  
