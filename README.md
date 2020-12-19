@@ -8,6 +8,7 @@ In other words, it "adds" a collision to objects which didn't have it.
 
 See the original thread for the list with all fixed places.
 
+> Note:  
 > `You can disable a fix of any of the places at the beginning of the filterscript or before the include.`  
 > `For example, type following:`
 ```pawn
@@ -26,6 +27,7 @@ Include in your code and begin using the library:
 #include <mapfix>
 ```
 
+> Note:  
 > `Since v1.1.1 it supports Streamer Plugin by Incognito. Now objects can be created via CreateDynamicObject. To do this, just include streamer before mapfix`
 
 ## Testing
