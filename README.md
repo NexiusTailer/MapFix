@@ -9,18 +9,19 @@ In other words, it "adds" a collision to objects which didn't have it.
 See the original thread for the list with all fixed places.
 
 `You can disable a fix of any of the places at the beginning of the filterscript or before the include.
-For example, type following: #define DISABLE_MAPFIX_PLACE_1 // So it will disable the fix №1`
+For example, type following:`
+```pawn
+#define DISABLE_MAPFIX_PLACE_1 // So it will disable the fix №1
+```
 
 ## How to install
 
 Simply install to your project:
-
 ```bash
 sampctl package install sampctl/mapfix
 ```
 
 Include in your code and begin using the library:
-
 ```pawn
 #include <mapfix>
 ```
@@ -30,7 +31,6 @@ Include in your code and begin using the library:
 ## Testing
 
 To test, simply run the package:
-
 ```bash
 sampctl package run
 ```
@@ -62,7 +62,7 @@ And connect to `localhost:7777`.
 * Apec - texture bug №74 (mapping)  
 * Nuttz - texture bug №139  
 * xRadical3 - texture bug №141  
-* Hare - texture bug №147  
+* Hare - texture bug №42 (supplement), 84 (supplement), 147  
 * Southclaws - hosted this GitHub repo for years  
 * m1n1vv - MapFix logo design
 
