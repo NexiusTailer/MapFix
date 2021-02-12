@@ -1,7 +1,4 @@
 {
-	"user": "sampctl",
-	"repo": "mapfix",
-	"dependencies": [
-		"sampctl/samp-stdlib"
-	]
+	"user": "NexiusTailer",
+	"repo": "MapFix"
 }
