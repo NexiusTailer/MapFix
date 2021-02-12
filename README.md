@@ -19,7 +19,7 @@ See the original thread for the list with all fixed places.
 
 Simply install to your project:
 ```bash
-sampctl package install sampctl/mapfix
+sampctl package install NexiusTailer/MapFix
 ```
 
 Include in your code and begin using the library:
