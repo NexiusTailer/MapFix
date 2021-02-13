@@ -22,13 +22,13 @@ Simply install to your project:
 sampctl package install NexiusTailer/MapFix
 ```
 
-**Include version:**  
+**Include version**  
 Include in your code and begin using the library:
 ```pawn
 #include <mapfix>
 ```
 
-**Filterscript version:**  
+**Filterscript version**  
 Go to the package folder and compile as a filterscript:
 ```pawn
 sampctl package build filterscript
