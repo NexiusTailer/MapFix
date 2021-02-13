@@ -15,7 +15,7 @@
 		{
 			"name": "Filterscript",
 			"input": "mapfix.pwn",
-			"output": "../filterscripts/mapfix.amx"
+			"output": "../../filterscripts/mapfix.amx"
 		}
 	]
 }
