@@ -33,7 +33,7 @@ Go to the package folder and compile as a filterscript:
 ```pawn
 sampctl package build filterscript
 ```
-The .amx file will appear in your filterscripts folder two directories above the dependency location.
+The .amx file will appear in your filterscripts folder two directories above the dependency location.  
 Don't forget to enable it in your server.cfg or plug it while the server is running.
 
 > `Note:`  
