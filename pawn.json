@@ -9,11 +9,11 @@
 	"builds":
 	[
 		{
-			"name": "Include",
+			"name": "include",
 			"input": "mapfix.inc"
 		},
 		{
-			"name": "Filterscript",
+			"name": "filterscript",
 			"input": "mapfix.pwn",
 			"output": "../../filterscripts/mapfix.amx"
 		}
