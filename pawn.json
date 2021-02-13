@@ -1,4 +1,17 @@
 {
 	"user": "NexiusTailer",
-	"repo": "MapFix"
+	"repo": "MapFix",
+	"dependencies": ["samp-incognito/samp-streamer-plugin"],
+	"builds":
+	[
+		{
+			"name": "Include",
+			"input": "mapfix.inc"
+		},
+		{
+			"name": "Filterscript",
+			"input": "mapfix.pwn",
+			"output": "filterscripts/mapfix.amx",
+		}
+	]
 }
