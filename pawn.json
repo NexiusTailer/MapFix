@@ -1,7 +1,11 @@
 {
 	"user": "NexiusTailer",
 	"repo": "MapFix",
-	"dependencies": ["samp-incognito/samp-streamer-plugin"],
+	"dependencies":
+	[
+		"sampctl/samp-stdlib",
+		"samp-incognito/samp-streamer-plugin"
+	],
 	"builds":
 	[
 		{
