@@ -22,10 +22,19 @@ Simply install to your project:
 sampctl package install NexiusTailer/MapFix
 ```
 
-Include in your code and begin using the library (it is set as include by default):
+**Include version:**
+Include in your code and begin using the library:
 ```pawn
 #include <mapfix>
 ```
+
+**Filterscript version:**
+Go to the package folder and compile as a filterscript:
+```pawn
+sampctl package build filterscript
+```
+The .amx file will appear in your filterscripts folder two directories above the dependency location.
+Don't forget to enable it in your server.cfg or plug it while the server is running.
 
 > `Note:`  
 > Since v1.1.1 it supports Streamer Plugin by Incognito. Now objects can be created via CreateDynamicObject. To do this, just include streamer before mapfix
