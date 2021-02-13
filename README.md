@@ -22,7 +22,7 @@ Simply install to your project:
 sampctl package install NexiusTailer/MapFix
 ```
 
-Include in your code and begin using the library:
+Include in your code and begin using the library (it is set as include by default):
 ```pawn
 #include <mapfix>
 ```
