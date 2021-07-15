@@ -37,7 +37,7 @@ The .amx file will appear in your filterscripts folder two directories above the
 Don't forget to enable it in your server.cfg or plug it while the server is running.
 
 > `Note:`  
-> Since v1.1.1 it supports Streamer Plugin by Incognito. Now objects can be created via CreateDynamicObject. To do this, just include streamer before mapfix
+> Since v1.1.1 it supports [Streamer Plugin by Incognito](https://github.com/samp-incognito/samp-streamer-plugin). Now objects can be created via CreateDynamicObject. To do this, just include streamer before mapfix
 
 ## Credits
 * Lordzy - Transparent/Invisible Objects tutorial  
