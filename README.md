@@ -211,6 +211,7 @@ Don't forget to enable it in your server.cfg or plug it while the server is runn
 * brokens - texture bug №73  
 * Sonic X - texture bug №131 (mapping), 134, 135, 136  
 * Apec - texture bug №74 (mapping)  
+* substantive. - texture bug №74 (supplement)  
 * Nuttz - texture bug №139  
 * xRadical3 - texture bug №141  
 * Hare - texture bug №42 (supplement), 84 (supplement), 147  
