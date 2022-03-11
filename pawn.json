@@ -3,7 +3,7 @@
 	"repo": "MapFix",
 	"dependencies":
 	[
-		"sampctl/samp-stdlib",
+		"pawn-lang/samp-stdlib",
 		"samp-incognito/samp-streamer-plugin"
 	],
 	"builds":
