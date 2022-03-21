@@ -189,7 +189,7 @@ Don't forget to enable it in your server.cfg or plug it while the server is runn
 > Since v1.1.1 it supports [Streamer Plugin by Incognito](https://github.com/samp-incognito/samp-streamer-plugin). Now objects can be created via CreateDynamicObject. To do this, just include streamer before mapfix
 
 ## Credits
-* Lordzy - Transparent/Invisible Objects tutorial  
+* Lordzy - [Transparent/Invisible Objects tutorial](https://sampforum.blast.hk/showthread.php?tid=492017)  
 * Pottus - advices and suggestions  
 * Daniel_Cortez - tips, texture bug №146  
 * ziggi - tips, texture bug №81 (mapping), 140  
