@@ -157,12 +157,16 @@ In other words, it "adds" a collision to objects which didn't have it.
 | 2288.2903, -1724.5142, 14.5468   | 0        | Los Santos                     | MAPFIX_PLACE_147 | https://i.imgur.com/E4qNxFA.jpg |
 | -1969.7408, 748.2233, 85.6016    | 0        | San Fierro                     | MAPFIX_PLACE_148 | https://i.imgur.com/aFr5bLU.jpg |
 
+***
+
 > `Note:`  
 > You can disable a fix of any of the places at the beginning of the filterscript or before the include.  
 > For example, type following:
 ```pawn
 #define DISABLE_MAPFIX_PLACE_1 // So it will disable the fix №1
 ```
+
+***
 
 ## How to install
 
@@ -185,8 +189,12 @@ sampctl package build filterscript
 The .amx file will appear in your filterscripts folder two directories above the dependency location.  
 Don't forget to enable it in your server.cfg or plug it while the server is running.
 
+***
+
 > `Note:`  
 > Since v1.1.1 it supports [Streamer Plugin by Incognito](https://github.com/samp-incognito/samp-streamer-plugin). Now objects can be created via CreateDynamicObject. To do this, just include streamer before mapfix
+
+***
 
 ## Credits
 * Lordzy - [Transparent/Invisible Objects tutorial](https://sampforum.blast.hk/showthread.php?tid=492017)  
