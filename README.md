@@ -208,7 +208,7 @@ Don't forget to enable it in your server.cfg or plug it while the server is runn
 * KinG7 - texture bug №91, 92, 93, 94, 95  
 * Jimmi - texture bug №40, 72 (mapping)  
 * Kar - texture bug №2, 27 (supplement), 72, 137, 138  
-* \$continue\$ - texture bug №102 (mapping), 129  
+* continue - texture bug №102 (mapping), 129  
 * reAL_ - texture bug №130 (mapping)  
 * \[CM]Rider - texture bug №18  
 * Vadyanga - texture bug №22  
