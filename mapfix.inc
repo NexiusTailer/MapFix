@@ -1,4 +1,4 @@
-//MapFix by Nexius v4.3.3
+//MapFix by Nexius v4.4.4
 
 #if defined _mapfix_included
 	#endinput
@@ -7,9 +7,9 @@
 
 #include <a_samp>
 
-#define MAPFIX_VERSION					"4.3.3"
+#define MAPFIX_VERSION					"4.4.4"
 
-#define MAX_MAPFIX_OBJECTS				617
+#define MAX_MAPFIX_OBJECTS				621
 
 #if !defined MAPFIX_USE_STREAMER
 	#define MAPFIX_USE_STREAMER			true
@@ -19,9 +19,9 @@
 	&& defined CreateDynamicObject\
 	&& defined SetDynamicObjectMaterial\
 	&& defined DestroyDynamicObject
-	#define mf_CreateObject(%0,%1,%2,%3,%4,%5,%6,%7) CreateDynamicObject(%0, %1, %2, %3, %4, %5, %6, -1, -1, -1, %7)
-	#define mf_SetObjectMaterial SetDynamicObjectMaterial
-	#define mf_DestroyObject DestroyDynamicObject
+	#define mf_CreateObject(%0,%1,%2,%3,%4,%5,%6,%7) _:CreateDynamicObject(%0, %1, %2, %3, %4, %5, %6, -1, -1, -1, %7)
+	#define mf_SetObjectMaterial(%0,%1,%2,%3,%4,%5) SetDynamicObjectMaterial(STREAMER_TAG_OBJECT:%0, %1, %2, %3, %4, %5)
+	#define mf_DestroyObject(%0) DestroyDynamicObject(STREAMER_TAG_OBJECT:%0)
 #else
 	#define mf_CreateObject CreateObject
 	#define mf_SetObjectMaterial SetObjectMaterial
@@ -1198,6 +1198,18 @@ CreateMapFixObjects()
 		MapFixObjects[614] = mf_CreateObject(3084, -1991.4, 760.2, 65.2, 0.0, 90.0, 0.0, 17.0);
 		MapFixObjects[615] = mf_CreateObject(3084, -1991.4, 763.1, 77.7, 0.0, 90.0, 0.0, 17.0);
 		MapFixObjects[616] = mf_CreateObject(3084, -1991.4, 763.1, 65.2, 0.0, 90.0, 0.0, 17.0);
+	#endif
+	#if !defined DISABLE_MAPFIX_PLACE_149 //by MDarklight, 0.3e objects are used
+		MapFixObjects[617] = mf_CreateObject(19437, 2766.7778, 178.68, 19.58, 90.0, 7.3, 90.0, 4.0);
+	#endif
+	#if !defined DISABLE_MAPFIX_PLACE_150 //by Vlad (Map Stock), 0.3e objects are used
+		MapFixObjects[618] = mf_CreateObject(19445, -2016.662, 56.7692, 27.58, -8.1, 0.0, -1.4, 22.0);
+		mf_SetObjectMaterial(MapFixObjects[618], 0, 9514, "711_sfw", "ws_carpark2", 0);
+		MapFixObjects[619] = mf_CreateObject(19445, -2016.8947, 47.2777, 28.93, -8.1, 0.0, -1.4, 22.0);
+		mf_SetObjectMaterial(MapFixObjects[619], 0, 9514, "711_sfw", "ws_carpark2", 0);
+	#endif
+	#if !defined DISABLE_MAPFIX_PLACE_151 //by Apec
+		MapFixObjects[620] = mf_CreateObject(17122, -212.0, -1543.3, 4.24, 0.0, 0.0, 0.0, 300.0);
 	#endif
 	#undef mf_CreateObject
 	#undef mf_SetObjectMaterial
