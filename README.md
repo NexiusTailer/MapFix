@@ -6,8 +6,8 @@ In other words, it "adds" a collision to objects which didn't have it.
 
 ## List of fixed places
 
-| Coordinates                        | Interior | Location                       | Definition         | Screenshot                     |
-| ---------------------------------- | -------- | ------------------------------ | ------------------ | ------------------------------ |
+| Coordinates                        | Interior | Location                       | Definition         | Screenshot                      |
+| ---------------------------------- | -------- | ------------------------------ | ------------------ | ------------------------------- |
 | `1285.2668, 2530.0417, 13.3019`    | 0        | Las Venturas                   | `MAPFIX_PLACE_1`   | https://i.imgur.com/mE4SR0w.jpg |
 | `2012.9233, -1598.4007, 16.3175`   | 0        | Los Santos                     | `MAPFIX_PLACE_2`   | https://i.imgur.com/MIbrokK.jpg |
 | `-1382.7746, 493.7839, 5.3882`     | 0        | San Fierro                     | `MAPFIX_PLACE_3`   | https://i.imgur.com/xug56Dy.jpg |
@@ -156,6 +156,9 @@ In other words, it "adds" a collision to objects which didn't have it.
 | `2315.2692, 1410.7572, 24.6312`    | 0        | Las Venturas                   | `MAPFIX_PLACE_146` | https://i.imgur.com/K9WJwpC.jpg |
 | `2288.2903, -1724.5142, 14.5468`   | 0        | Los Santos                     | `MAPFIX_PLACE_147` | https://i.imgur.com/E4qNxFA.jpg |
 | `-1969.7408, 748.2233, 85.6016`    | 0        | San Fierro                     | `MAPFIX_PLACE_148` | https://i.imgur.com/aFr5bLU.jpg |
+| `2767.6946, 176.0012, 21.5228`     | 0        | Red County                     | `MAPFIX_PLACE_149` | https://i.imgur.com/xNJiGZ1.jpg |
+| `-2019.2592, 50.1866, 31.9172`     | 0        | San Fierro                     | `MAPFIX_PLACE_150` | https://i.imgur.com/7BD1d9L.jpg |
+| `-214.9152, -1544.3046, 7.7948`    | 0        | Flint County                   | `MAPFIX_PLACE_151` | https://i.imgur.com/pqFDoW2.jpg |
 
 ***
 
@@ -219,9 +222,11 @@ Don't forget to enable it in your server.cfg or plug it while the server is runn
 * brokens - texture bug №73  
 * M I S T E V - texture bug №131 (mapping), 134, 135, 136  
 * substantive. - texture bug №74 (supplement)  
-* Apec - texture bug №74 (mapping)  
+* Apec - texture bug №74, 151 (mapping)  
 * Nuttz - texture bug №139  
 * xRadical3 - texture bug №141  
+* MDarklight - texture bug №149 (mapping)  
+* Vlad (Map Stock) - texture bug №150 (mapping)  
 * Hare - texture bug №42 (supplement), 84 (supplement), 147  
 * Southclaws - hosted this GitHub repo for years  
 * m1n1vv - MapFix logo design
