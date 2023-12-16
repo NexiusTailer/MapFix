@@ -1,4 +1,5 @@
 # [MapFix](https://pro-pawn.ru/showthread.php?12744)
+
 > [!NOTE]  
 > **Texture bug fixes of the GTA San Andreas map**
 
@@ -161,12 +162,16 @@ In other words, it "adds" a collision to objects which didn't have it.
 | `-2019.2592, 50.1866, 31.9172`     | 0        | San Fierro                     | `MAPFIX_PLACE_150` | https://i.imgur.com/7BD1d9L.jpg |
 | `-214.9152, -1544.3046, 7.7948`    | 0        | Flint County                   | `MAPFIX_PLACE_151` | https://i.imgur.com/pqFDoW2.jpg |
 
+***
+
 > [!NOTE]  
 > You can disable a fix of any of the places at the beginning of the filterscript or before the include.  
 > For example, type following:
 > ```pawn
 > #define DISABLE_MAPFIX_PLACE_1 // So it will disable the fix №1
 > ```
+
+***
 
 ## How to install
 
@@ -189,8 +194,12 @@ sampctl package build filterscript
 The .amx file will appear in your filterscripts folder two directories above the dependency location.  
 Don't forget to enable it in your server.cfg or plug it while the server is running.
 
+***
+
 > [!NOTE]  
-> Since v1.1.1 it supports [Streamer Plugin by Incognito](https://github.com/samp-incognito/samp-streamer-plugin). Now objects can be created via CreateDynamicObject. To do this, just include streamer before mapfix
+> Since v1.1.1 it supports [Streamer Plugin by Incognito](https://github.com/samp-incognito/samp-streamer-plugin). Now objects can be created via CreateDynamicObject. To do this, just include streamer before mapfix.
+
+***
 
 ## Credits
 * Lordzy - [Transparent/Invisible Objects tutorial](https://sampforum.blast.hk/showthread.php?tid=492017)  
