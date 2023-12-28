@@ -94,7 +94,7 @@ In other words, it "adds" a collision to objects which didn't have it.
 | `2242.7214, 2233.1661, 11.7778`    | 0        | Las Venturas                   | `MAPFIX_PLACE_82`  | https://i.imgur.com/DfTBL8l.jpg |
 | `-2317.0625, 767.5687, 56.8312`    | 0        | San Fierro                     | `MAPFIX_PLACE_83`  | https://i.imgur.com/XrnkLKU.jpg |
 | `1085.4861, -1192.4487, 19.1758`   | 0        | Los Santos                     | `MAPFIX_PLACE_84`  | https://i.imgur.com/KcZk6ai.jpg |
-| `1225.4695, 309.6244, 20.7578`     | 0        | Los Santos                     | `MAPFIX_PLACE_85`  | https://i.imgur.com/m9jHR8R.jpg |
+| `1225.4695, 309.6244, 20.7578`     | 0        | Red County                     | `MAPFIX_PLACE_85`  | https://i.imgur.com/m9jHR8R.jpg |
 | `-2739.4126, 838.3444, 58.2475`    | 0        | San Fierro                     | `MAPFIX_PLACE_86`  | https://i.imgur.com/enlrjmJ.jpg |
 | `1331.8497, -1001.8965, 47.9052`   | 0        | Los Santos                     | `MAPFIX_PLACE_87`  | https://i.imgur.com/W50sEQ8.jpg |
 | `-1806.1045, 1511.5961, -31.3402`  | 0        | San Fierro                     | `MAPFIX_PLACE_88`  | https://i.imgur.com/UA6JO3p.jpg |
@@ -161,6 +161,9 @@ In other words, it "adds" a collision to objects which didn't have it.
 | `2767.6946, 176.0012, 21.5228`     | 0        | Red County                     | `MAPFIX_PLACE_149` | https://i.imgur.com/xNJiGZ1.jpg |
 | `-2019.2592, 50.1866, 31.9172`     | 0        | San Fierro                     | `MAPFIX_PLACE_150` | https://i.imgur.com/7BD1d9L.jpg |
 | `-214.9152, -1544.3046, 7.7948`    | 0        | Flint County                   | `MAPFIX_PLACE_151` | https://i.imgur.com/pqFDoW2.jpg |
+| `-2099.4434, -2433.0792, 35.9218`  | 0        | Whetstone                      | `MAPFIX_PLACE_152` | https://i.imgur.com/OGiG66i.jpg |
+| `2066.1865, 2725.2888, 11.8203`    | 0        | Las Venturas                   | `MAPFIX_PLACE_153` | https://i.imgur.com/tiAzk1c.jpg |
+| `1092.7198, -1487.0354, 16.6062`   | 0        | Los Santos                     | `MAPFIX_PLACE_154` | https://i.imgur.com/m8GlLKP.jpg |
 
 ***
 
@@ -212,7 +215,7 @@ Don't forget to enable it in your server.cfg or plug it while the server is runn
 * KrutoyKrosch - texture bug №4 (supplement), 96  
 * KinG7 - texture bug №91, 92, 93, 94, 95  
 * Jimmi - texture bug №40, 72 (mapping)  
-* Kar - texture bug №2, 27 (supplement), 72, 137, 138  
+* Kar - texture bug №2, 27 (supplement), 72, 137, 138, 153  
 * continue - texture bug №102 (mapping), 129  
 * reAL_ - texture bug №130 (mapping)  
 * \[CM]Rider - texture bug №18  
@@ -222,11 +225,13 @@ Don't forget to enable it in your server.cfg or plug it while the server is runn
 * SoNik)) - texture bug №51  
 * Vitalik_Gonsor - texture bug №54  
 * brokens - texture bug №73  
-* M I S T E V - texture bug №131 (mapping), 134, 135, 136  
+* M I S T E V - texture bug №131 (mapping), 134, 135, 136, 152  
 * substantive. - texture bug №74 (supplement)  
 * Apec - texture bug №74, 151 (mapping)  
 * Nuttz - texture bug №139  
 * xRadical3 - texture bug №141  
+* lPauI - texture bug №154  
+* Tornamic - texture bug №85 (supplement)  
 * MDarklight - texture bug №149 (mapping)  
 * Vlad (Map Stock) - texture bug №150 (mapping)  
 * Hare - texture bug №42 (supplement), 84 (supplement), 147  
