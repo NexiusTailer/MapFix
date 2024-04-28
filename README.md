@@ -164,6 +164,8 @@ In other words, it "adds" a collision to objects which didn't have it.
 | `-2099.4434, -2433.0792, 35.9218`  | 0        | Whetstone                      | `MAPFIX_PLACE_152` | https://i.imgur.com/OGiG66i.jpg |
 | `2066.1865, 2725.2888, 11.8203`    | 0        | Las Venturas                   | `MAPFIX_PLACE_153` | https://i.imgur.com/tiAzk1c.jpg |
 | `1092.7198, -1487.0354, 16.6062`   | 0        | Los Santos                     | `MAPFIX_PLACE_154` | https://i.imgur.com/m8GlLKP.jpg |
+| `-597.3802, 1922.1878, 23.9245`    | 0        | Bone County                    | `MAPFIX_PLACE_155` | https://i.imgur.com/R2DrqFE.jpg |
+| `2844.6428, -2049.1642, 11.9296`   | 0        | Los Santos                     | `MAPFIX_PLACE_156` | https://i.imgur.com/tCzalbV.jpg |
 
 ***
 
@@ -225,13 +227,13 @@ Don't forget to enable it in your server.cfg or plug it while the server is runn
 * SoNik)) - texture bug №51  
 * Vitalik_Gonsor - texture bug №54  
 * brokens - texture bug №73  
-* M I S T E V - texture bug №131 (mapping), 134, 135, 136, 152  
+* M I S T E V - texture bug №131 (mapping), 134, 135, 136, 152, 156  
 * substantive. - texture bug №74 (supplement)  
 * Apec - texture bug №74, 151 (mapping)  
 * Nuttz - texture bug №139  
 * xRadical3 - texture bug №141  
 * lPauI - texture bug №154  
-* Tornamic - texture bug №85 (supplement)  
+* Tornamic - texture bug №85 (supplement), 155 (mapping)  
 * MDarklight - texture bug №149 (mapping)  
 * Vlad (Map Stock) - texture bug №150 (mapping)  
 * Hare - texture bug №42 (supplement), 84 (supplement), 147  
