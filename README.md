@@ -1,4 +1,4 @@
-# [MapFix](https://pawn.wiki/index.php?/topic/28682-filterscriptinclude-mapfix/)
+# [MapFix](https://pro-pawn.ru/showthread.php?12744)
 
 > [!NOTE]  
 > **Texture bug fixes of the GTA San Andreas map**
