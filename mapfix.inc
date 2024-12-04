@@ -1,4 +1,4 @@
-//MapFix by Nexius v4.6.5
+//MapFix by Nexius v4.6.6
 
 #if defined _mapfix_included
 	#endinput
