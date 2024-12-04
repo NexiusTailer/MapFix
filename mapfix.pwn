@@ -1,9 +1,10 @@
-//MapFix by Nexius v4.6.5
+//MapFix by Nexius v4.6.6
 
 #if defined _mapfix_included
 	#endinput
 #endif
-#define _mapfix_included
+
+#define FILTERSCRIPT
 
 #include <a_samp>
 
@@ -13,6 +14,10 @@
 
 #if !defined MAPFIX_USE_STREAMER
 	#define MAPFIX_USE_STREAMER			true
+#endif
+
+#if MAPFIX_USE_STREAMER
+	#tryinclude <streamer>
 #endif
 
 #if MAPFIX_USE_STREAMER\
@@ -31,71 +36,44 @@
 #define mf_CreateFloorObject CreateObject
 #define mf_DestroyFloorObject DestroyObject
 
-static
+new
 	MapFixObjects[MAX_MAPFIX_OBJECTS],
 	MapFixIsEnabled = 1;
 
-public OnGameModeInit()
+public OnFilterScriptInit()
 {
 	#if defined GetSVarInt\
 		&& defined SetSVarInt
 		if(GetSVarInt("MapFixIsEnabled"))
 		{
-			print("MapFix already included!");
+			print("  MapFix already included!");
 			MapFixIsEnabled++;
 		}
 		else SetSVarInt("MapFixIsEnabled", 1);
 	#endif
 	if(MapFixIsEnabled < 2)
 	{
-		printf("MapFix by Nexius v%s loaded (include version).", MAPFIX_VERSION);
+		printf("  MapFix by Nexius v%s loaded (filterscript version).", MAPFIX_VERSION);
 		CreateMapFixObjects();
 	}
-	#if defined mf_OnGameModeInit
-		return mf_OnGameModeInit();
-	#else
-		return 1;
-	#endif
+	return 1;
 }
 
-#if defined _ALS_OnGameModeInit
-	#undef OnGameModeInit
-#else
-	#define _ALS_OnGameModeInit
-#endif
-#define OnGameModeInit mf_OnGameModeInit
-#if defined mf_OnGameModeInit
-	forward mf_OnGameModeInit();
-#endif
-
-public OnGameModeExit()
+public OnFilterScriptExit()
 {
 	if(MapFixIsEnabled < 2)
 	{
-		printf("MapFix by Nexius v%s unloaded (include version).", MAPFIX_VERSION);
+		printf("  MapFix by Nexius v%s unloaded (filterscript version).", MAPFIX_VERSION);
 		DestroyMapFixObjects();
 		#if defined DeleteSVar
 			DeleteSVar("MapFixIsEnabled");
 		#endif
 	}
-	#if defined mf_OnGameModeExit
-		return mf_OnGameModeExit();
-	#else
-		return 1;
-	#endif
+	return 1;
 }
 
-#if defined _ALS_OnGameModeExit
-	#undef OnGameModeExit
-#else
-	#define _ALS_OnGameModeExit
-#endif
-#define OnGameModeExit mf_OnGameModeExit
-#if defined mf_OnGameModeExit
-	forward mf_OnGameModeExit();
-#endif
-
-CreateMapFixObjects()
+forward CreateMapFixObjects();
+public CreateMapFixObjects()
 {
 	#if !defined DISABLE_MAPFIX_PLACE_1
 		MapFixObjects[0] = mf_CreateObject(2904, 1277.5, 2529.6, 16.9, 0.0, 90.0, 90.0, 4.0);
