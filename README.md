@@ -237,6 +237,7 @@ Don't forget to enable it in your server.cfg or plug it while the server is runn
 * MDarklight - texture bug №149 (mapping)  
 * Vlad (Map Stock) - texture bug №150 (mapping)  
 * Hare - texture bug №42 (supplement), 84 (supplement), 147  
+* Walter Correa - texture bug №73 (supplement)  
 * Southclaws - hosted this GitHub repo for years  
 * m1n1vv - MapFix logo design
 
