@@ -166,6 +166,8 @@ In other words, it "adds" a collision to objects which didn't have it.
 | `1092.7198, -1487.0354, 16.6062`   | 0        | Los Santos                     | `MAPFIX_PLACE_154` | https://i.imgur.com/m8GlLKP.jpg |
 | `-597.3802, 1922.1878, 23.9245`    | 0        | Bone County                    | `MAPFIX_PLACE_155` | https://i.imgur.com/R2DrqFE.jpg |
 | `2844.6428, -2049.1642, 11.9296`   | 0        | Los Santos                     | `MAPFIX_PLACE_156` | https://i.imgur.com/tCzalbV.jpg |
+| `2806.8218, -1169.0355, 1026.5703` | 8        | Colonel Furhberger's interior  | `MAPFIX_PLACE_157` | https://i.imgur.com/38ygLtW.jpg |
+| `-226.3664, 1400.6025, 28.7656`    | 18       | Lil' Probe Inn interior        | `MAPFIX_PLACE_158` | https://i.imgur.com/uevII3r.jpg |
 
 ***
 
@@ -236,7 +238,7 @@ Don't forget to enable it in your server.cfg or plug it while the server is runn
 * Tornamic - texture bug №85 (supplement), 155 (mapping)  
 * MDarklight - texture bug №149 (mapping)  
 * Vlad (Map Stock) - texture bug №150 (mapping)  
-* Hare - texture bug №42 (supplement), 84 (supplement), 147  
+* Hare - texture bug №42 (supplement), 84 (supplement), 147, 157, 158  
 * Walter Correa - texture bug №73 (supplement)  
 * Southclaws - hosted this GitHub repo for years  
 * m1n1vv - MapFix logo design
