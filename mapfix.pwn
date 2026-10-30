@@ -1,4 +1,4 @@
-//MapFix by Nexius v4.6.6
+//MapFix by Nexius v4.7.6
 
 #if defined _mapfix_included
 	#endinput
@@ -8,9 +8,9 @@
 
 #include <a_samp>
 
-#define MAPFIX_VERSION					"4.6.6"
+#define MAPFIX_VERSION					"4.7.6"
 
-#define MAX_MAPFIX_OBJECTS				665
+#define MAX_MAPFIX_OBJECTS				667
 
 #if !defined MAPFIX_USE_STREAMER
 	#define MAPFIX_USE_STREAMER			true
@@ -1269,6 +1269,14 @@ public CreateMapFixObjects()
 		MapFixObjects[662] = mf_CreateObject(3084, 2837.4, -1896.1, 9.82, -90.0, 180.0, -90.0, 14.0);
 		MapFixObjects[663] = mf_CreateObject(3084, 2837.4, -1908.5, 9.82, -90.0, 180.0, -90.0, 14.0);
 		MapFixObjects[664] = mf_CreateObject(3084, 2837.4, -1920.9, 9.82, -90.0, 180.0, -90.0, 14.0);
+	#endif
+	#if !defined DISABLE_MAPFIX_PLACE_157 //by Hare
+		MapFixObjects[665] = mf_CreateObject(9339, 2806.07, -1170.0495, 1027.9301, 0.0, 270.0, 0.0, 28.0);
+		mf_SetObjectMaterial(MapFixObjects[665], 0, 0, "none", "none", 0);
+	#endif
+	#if !defined DISABLE_MAPFIX_PLACE_158 //by Hare, 0.3c objects are used
+		MapFixObjects[666] = mf_CreateObject(18981, -234.4023, 1404.1666, 30.0478, 0.0, 90.0, 90.0, 28.0);
+		mf_SetObjectMaterial(MapFixObjects[666], 0, 0, "none", "none", 0);
 	#endif
 	#undef mf_CreateObject
 	#undef mf_SetObjectMaterial
